@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-apollo-composables",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.4",
+    "@nuxtjs/composition-api": "^0.13.5",
+    "@vue/apollo-composable": "^4.0.0-alpha.12",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {}
+}
