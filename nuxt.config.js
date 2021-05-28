@@ -3,7 +3,11 @@ export default {
 
   components: true,
 
-  buildModules: ["@nuxtjs/composition-api"],
+  buildModules: ["@nuxtjs/composition-api/module"],
+
+  build: {
+    transpile: ["@vue/apollo-composable"]
+  },
 
   modules: ["@nuxtjs/apollo"],
 
